@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "VectorSwift"
-  s.version          = "0.2.0"
+  s.version          = "0.2.1"
   s.summary          = "Powerful vector operations for the types you're already using."
 
 # This description is used to generate tags and improve search results.
@@ -30,6 +30,7 @@ protocol which can give any type the power to perform vector operations.
   # s.social_media_url = 'https://twitter.com/davidisaaclee'
 
   s.ios.deployment_target = '8.0'
+  s.tvos.deployment_target = '11.0'
 
   s.source_files = 'VectorSwift/Classes/**/*'
   
